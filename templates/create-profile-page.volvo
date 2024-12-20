@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lagregistrering</title>
+</head>
+<body>
+	<form action="/Laglista" method="POST">
+		<input type="text" name="teamName" placeholder="lagnamn" required>
+		<input type="text" name="City" placeholder="Stad" required>
+		<input type="number" name="phoneNumber" placeholder="Telefonnummer" required>
+		<button type="submit">Registrera ditt lag</button>
+	</form>
+</body>
+</html>
